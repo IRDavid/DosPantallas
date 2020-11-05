@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void abrirventana (View view){
-        Intent intento = new Intent(this.activity2.class);
+        Intent intento = new Intent(this,activity2.class);
         startActivity(intento);
     }
 }
